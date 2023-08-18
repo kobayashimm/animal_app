@@ -1,4 +1,7 @@
 # 必要なモジュールのインポート
+import sys
+print("sys.path contents:", sys.path)
+
 import animal
 import torch
 from animal import transform, Net

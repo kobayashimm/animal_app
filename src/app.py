@@ -1,7 +1,11 @@
 # 必要なモジュールのインポート
-import sys
-sys.path.append('src/animal.py')
 import animal
+import torch
+from animal import transform, Net
+from flask import Flask, request, render_template, redirect
+import io
+from PIL import Image
+import base64
 
 import torch
 from animal import transform, Net # animal.py から前処理とネットワークの定義を読み込み

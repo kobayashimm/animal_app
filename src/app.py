@@ -1,6 +1,6 @@
 # 必要なモジュールのインポート
 import sys
-sys.path.append('/path/to/directory_with_animal.py')
+sys.path.append('src/animal.py')
 import animal
 
 import torch

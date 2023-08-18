@@ -1,6 +1,6 @@
 # 必要なモジュールのインポート
 import torch
-from animal import transform, Net # animal.py から前処理とネットワークの定義を読み込み
+from modules import animal
 from flask import Flask, request, render_template, redirect
 import io
 from PIL import Image

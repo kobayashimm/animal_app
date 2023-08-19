@@ -1,1 +1,7 @@
+
+# Python cache files
+*.pyc
+__pycache__/
+
+# Virtual environment
 animal_app_env/

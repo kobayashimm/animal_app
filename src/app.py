@@ -1,6 +1,6 @@
 # 必要なモジュールのインポート
 import sys
-print("sys.path contents:", sys.path)
+sys.path.append('./src')
 
 import os
 

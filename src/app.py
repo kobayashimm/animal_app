@@ -2,6 +2,11 @@
 import sys
 print("sys.path contents:", sys.path)
 
+import os
+
+# 現在のディレクトリのファイルとディレクトリの一覧を表示
+print("Current directory contents:", os.listdir('.'))
+
 import animal
 import torch
 from animal import transform, Net # animal.py から前処理とネットワークの定義を読み込み
